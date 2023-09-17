@@ -1,0 +1,3 @@
+$("#alert").click(() => {
+    alert("oi")
+})

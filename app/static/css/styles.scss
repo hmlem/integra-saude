@@ -1,0 +1,31 @@
+@import 'main';
+@import 'header';
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 600px;
+
+    nav{
+        width: 300px;
+
+        @media only screen and (min-width: 600px) {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: flex;
+
+            div{
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+}

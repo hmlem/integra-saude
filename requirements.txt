@@ -1,0 +1,10 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.5
+python-dotenv==1.0.0
+SQLAlchemy==2.0.19
+psycopg2-binary==2.9.7
+Flask-Login==0.6.2
+Flask-Assets==2.0
+pyScss==1.4.0
+jsmin==3.0.1
+bcrypt==4.0.1

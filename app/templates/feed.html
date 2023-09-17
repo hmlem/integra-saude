@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}Login - {% endblock
+%}
+{% block content %}
+<form method="post" action="/login">
+    <div class="input-wrapper">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" />
+    </div>
+    <div class="input-wrapper">
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" />
+    </div>
+    <button type="submit">Entrar</button>
+</form>
+{% endblock %}
+{% block scripts %}
+<script src="/static/js/intubacao_sedacao_ga.js"></script>
+{% endblock %}
